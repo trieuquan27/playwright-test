@@ -14,8 +14,7 @@ test('Login test demo',async()=>{
 const newContext= await browser.newContext();
  const newPage= await newContext.newPage();
  await newPage.goto('https://google.com./');
- 
 
- await page.waitForTimeout(5000)
+ await newPage.waitForTimeout(5000)
 
 })
