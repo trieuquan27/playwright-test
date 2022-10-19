@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "pw": "npx playwright test login.test.ts --headed"
+    "test": "npx playwright test login.test.ts --headed"
   },
   "author": "",
   "license": "ISC",
