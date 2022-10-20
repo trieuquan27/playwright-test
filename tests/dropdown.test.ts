@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test ('dropdown handling',async ({page}) => {
+test.skip ('dropdown handling',async ({page}) => {
  
     await page.goto('https://www.lambdatest.com/selenium-playground/select-dropdown-demo');
     await page.selectOption("id=select-demo",{
