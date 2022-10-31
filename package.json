@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test alert.test.ts --headed"
+    "test": "npx playwright test dropdown.test.ts --headed"
   },
   "author": "",
   "license": "ISC",
